@@ -8,6 +8,7 @@ body{
     padding: 0;
     margin: 0;
     background: #fff;
+    margin: 10px;
 }
 
 .main{
@@ -29,7 +30,6 @@ body{
 .img-logo{
     display: flex;
     align-items: center;
-    background-color: red;
     width: 15%;
     text-align: center;
 }
@@ -38,3 +38,77 @@ body{
     display: flex;
     margin-left: 120px;
 }
+
+.nav-bar{
+    width: 30%;
+    position: relative;
+    display: flex;
+    float: left;
+    align-items: center;
+    
+}
+
+.nav-list{
+    display: flex;
+    float: left;
+
+}
+
+.nav-list li{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    font-size: large;
+}
+
+.nav-list li:hover{
+
+    background-color: #333;
+    color: #f2f2f2;
+}
+
+.search-button{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 40%;
+    float: right;
+
+}
+
+.search-button input{
+    float: right;
+    margin-left: 65%;
+    font-size: 17px;
+    height: 35px;
+    outline-width: 10px red;
+}
+
+.user-icon{
+    width: 10%;
+    display: flex;
+    align-items: center;
+
+}
+
+.user-icon i{
+    display: flex;
+    margin-left: 20px;
+}
+
+.chose-option{
+    height: 15px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
