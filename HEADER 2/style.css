@@ -1,14 +1,15 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-
 body{
-    padding: 0;
-    margin: 0;
     background-color: #fff;
 }
 
+.container{
+    margin: 10px auto;
+}
 .nav-header{
     position: relative;
     display: flex;
@@ -16,29 +17,21 @@ body{
     width: 100%;
     background-color: #f2f2f2;
 }
-
 .nav-bar{
    display: flex;
 }
-
 .nav-list{
     position: relative;
     display: flex;
-    text-align: center;
     align-items: center;
-    margin-left: 500px;
-    
 }
-
 .nav-list li {
-
     display: flex;
     text-decoration: none;
     text-align: center;
-    padding: 25px;
-    
+    padding: 25px;  
+    font-size: large;
 }
-
 .nav-list li:hover{
     background-color: lightgreen;
     color: black;
