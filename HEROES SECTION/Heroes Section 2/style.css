@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heroes-section{
+    max-width: 992px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container{
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.heroes-content h2{
+     font-size: 40px;
+     font-weight: 500;
+     margin: 20px;
+}
+.heroes-content p{
+     font-size: large;
+     font-weight: 300;
+     margin: 20px;
+}
+.heroes-content button{
+     font-size: 10px;
+     margin: 20px;
+     padding: 10px;
+}
+.heroes-content button:hover{
+     font-size: large;
+     background-color: aquamarine;
+     color: brown;
+}
