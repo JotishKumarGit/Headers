@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 500px;
+    width: 100%;  
+}
+.nav-header{
+    background-color: #f2f2f2;
+    border: 0.5px solid #f2f2f2;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+} 
+.brand-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand-logo img{
+    margin-left: 100px;
+    border-radius: 15px;
+}
+.nav-bar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.nav-bar input{
+    font-size: 30px;
+    border-radius: 10px;
+ }
+.nav-bar input:hover{
+    background-color: #acb2ac;
+    color: red;
+}
+.user-icon{
+    display: flex;
+    align-items: center; 
+    margin: 20px;  
+}
+.user-icon i{
+    font-size: 30px;
+    }
+.container{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+.header-section{
+    width: 35%;
+    height: 400px;
+    background-color: #f2f2f2;
+    display: flex;
+    position: relative;
+    margin: 10px;
+}
+.nav-section{
+    background-color: #f2f2f2;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    position: relative;
+    margin: 10px auto;
+}
+.select-your-choice{
+   display: flex;
+   align-items: center;
+   background-color: #fff;
+}
+.select-your-choice2{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    height: 20px;
+    margin: 20px;
+
+}
+.fa-user{
+    padding: 10px;
+}
+@media only screen and (max-width: 400px) {
+    body{
+        background-color: red;
+        display: flex;
+        flex-wrap: wrap; 
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
