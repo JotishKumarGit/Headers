@@ -8,6 +8,7 @@
     margin: 0 auto;
 }
 .container{
+    max-width: 992px;
     margin-top: 150px;
     text-align: center;
     align-items: center;
