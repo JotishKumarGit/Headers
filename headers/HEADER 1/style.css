@@ -10,7 +10,6 @@
      height: 100px;
      width: 100%;
      background-color: #f2f2f2;
-     margin: 12px auto;
    } 
    .container{
     display: flex;
@@ -33,8 +32,6 @@
     display: flex;
     align-items: center;
     margin-right: 10%;
-   
-  
    }
    .nav-bar{
    display: flex;
@@ -49,7 +46,6 @@
    }
    .list li {
     display: flex;
-    float: right;
     text-decoration: none;
     justify-content: space-evenly;
     padding: 20px;
@@ -61,5 +57,20 @@
     background-color: aqua;
     color: black;
     border: 1px solid greenyellow;
+   }
+   @media (max-width: 1140px) and (min-width: 768px) {
+      .nav-header{
+         margin: 12px auto;
+         display: flex;
+      }
+      
+   }
+   
+   @media (max-width: 1140px) and (min-width: 768px) {
+      .nav-header{
+         margin: 12px auto;
+         display: flex;
+      }
+      
    }
    

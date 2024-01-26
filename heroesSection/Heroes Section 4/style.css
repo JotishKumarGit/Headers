@@ -4,43 +4,77 @@
     box-sizing: border-box;
 }
 .hereos-section{
-    max-width: 992px;
-    margin: 0 auto;
-    display: flex;
+    margin-top: 100px;
+   
 }
 .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.heroes-section-content{
     display: flex;
-    margin-top: 100px;
+    text-align: center;
+    align-items: center;  
+    margin: 10px;
+    padding: 0 30px;
 }
 .heroes-content{
-    text-align: center;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
 }
 .heroes-content h2{
-    font-size: 50px;
-    font-weight: 400;
-    padding: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 15px;
+    margin-bottom: 30px;
 }
 .heroes-content p{
     font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding: 0 20px;
 }
 .heroes-form{
-    padding: 50px;
-    margin: 50px;
-    box-shadow: 3px 10px 0px 0px #fff; 
-    border: .3px solid blue;
+  
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 3px 5px 5px;  
+   border: 1px solid blue;
+   
 }
-.sign-up{
-    font-size: 20px;
+.heroes-form input{
+    display: block;
     text-align: center;
     align-items: center;
-    margin-left: 40px;
-    padding: 10px;
+    justify-content: center;
+    padding: 5px;
+    margin: 40px;
 }
-.sign-up:hover{
-    background-color: red;
-    color: aliceblue;
-
+.sign-up{
+   height: 40px;
+   padding: 0 30px;  
+}
+hr{
+    padding: 10px 0;
+    margin: 0 10px;
+}
+@media (max-width: 1140px) and (min-width: 768px){
+    .hereos-section{
+        margin-top: 100px;
+        background-color: yellowgreen;
+        color: aliceblue;
+    }
+}
+@media (max-width: 667px) {
+    .hereos-section{
+        display: flex;
+        margin-top: 100px;
+        background-color: aqua;
+        color: aliceblue;
+    }
 }
