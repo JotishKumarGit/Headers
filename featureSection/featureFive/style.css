@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.feature-section{
+    background-color: bisque;
+    margin-top: 50px;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.feature-section-heading h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+}
+.feature-section-wraper{
+    display: flex;
+}
+.feature-content-wraper{
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+    width: 50%;
+    margin-top: 100px;
+}
+.feature-content-wraper h2{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+}
+.feature-content-wraper p{
+    font-size: large;
+    font-weight: 300;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+}
+.feature-button-wraper button{
+   padding: 10px;
+   font-size: large;
+   border-radius: 5px;
+}
+.feature-button-wraper button:hover{
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
+.feature-section-wraper-2{
+    display: flex;
+    margin-top: 40px;
+}
+.feature-section-icon-wraper{
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
+.feature-section-icon{
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+}
+.feature-section-icon i{
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+}
+.feature-section-icon h2{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+}
+.feature-section-icon P{
+    font-size: large;
+    font-weight: 300;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+}
+@media (max-width: 1140px) and (min-width: 768px) {
+
+    .feature-section{
+        background-color: greenyellow;
+        color: whitesmoke;
+        margin-top: 50px;
+    }   
+}
+@media (min-width: 76px) {
+    .feature-section-wraper{
+      
+    }
+}

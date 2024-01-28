@@ -1,71 +1,80 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.featureSection{
+
+.featureSection {
     background-color: antiquewhite;
     margin-top: 50px;
 }
-.container{
+
+.container {
     max-width: 1140px;
     margin: 0 auto;
 }
-.featureSection-heading h2{
+
+.featureSection-heading h2 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.featureSection-wraper{
-    display: flex; 
+
+.featureSection-wraper {
+    display: flex;
 }
-.featureSection-icon{
+
+.featureSection-icon {
     margin: 10px auto;
     padding: 20px;
 }
-.featureSection-icon .fa-image{
+
+.featureSection-icon .fa-image {
     margin: 0 0 10px;
     padding: 0 0 10px;
 }
-.featureSection-icon h2{
+
+.featureSection-icon h2 {
     margin-bottom: 20px;
-   
+
 }
-.featureSection-icon p{
+
+.featureSection-icon p {
     margin-bottom: 20px;
     font-size: large;
     font-weight: 400;
-  
+
 }
-.featureSection-icon .fa-house{
+
+.featureSection-icon .fa-house {
     margin: 0 0 10px;
     padding: 0 0 10px;
 }
-.featureSection-icon .fa-user{
+
+.featureSection-icon .fa-user {
     margin: 0 0 10px;
     padding: 0 0 10px;
 }
-a{
+
+a {
     font-size: large;
 }
 
-@media (max-width: 1140px) and  (min-width: 768px) {
-    .featureSection{
-        display: flex;
-    background-color: yellowgreen;
-    margin-top: 50px;
-    color: white;
-    display: flex;
+@media (max-width: 1140px) and (min-width: 768px) {
+    .featureSection {
+        background-color: yellowgreen;
+        margin-top: 50px;
+        color: white;
+    }
 }
-} 
 
-@media (max-width: 1140px) {
-    .featureSection{
-    display: flex;
-    overflow: hidden;
-    background-color: yellowgreen;
-    margin-top: 50px;
-    color: white;
-   
+@media (max-width: 767px) {
+    .featureSection-wraper {
+        display: flex;
+        flex-direction: column;
+        background-color: yellowgreen;
+        margin-top: 50px;
+        color: white;
+
+    }
 }
-} 
