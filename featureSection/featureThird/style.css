@@ -16,16 +16,23 @@
     font-size: 40px;
     font-weight: 400;
 }
-.feature-card-wraper{
-    display: flex;
-    margin-top: 50px;
+.feature-section-background-image-1 p{
+    background-image: url('download.jpeg');
+    height: 350px;
+    width: 350px;
 }
-.feature-card-image{
-    padding: 10px;
+.feature-section-background-image-2 p{
+    background-image: url('free-nature-images.jpg');
+    height: 350px;
+    width: 350px;
 }
-.feature-card-image img{
-    border-radius: 10px;
+.feature-section-background-image-3 p{
+    background-image: url('tree-736885_1280.jpg');
+    height: 350px;
+    width: 350px;
 }
+
+/*
 @media (max-width: 1140px) and (min-width:768px) {
 
     .feature-section{
@@ -47,3 +54,4 @@
         color: black;
     }
 }
+*/
