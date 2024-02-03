@@ -1,85 +1,88 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 .feature-section{
-    background-color: bisque;
-    margin-top: 50px;
+
+    margin-top: 70px;
 }
 .container{
     max-width: 1140px;
     margin: 0 auto;
 }
 .feature-section-heading h2{
-    font-size: 40px;
-    font-weight: 700;
-    padding: 0 0 10px;
-    margin: 0 0 10px;
+      font-size: 40px;
+      font-weight: 700;
+      font-family: 'Times New Roman', Times, serif;
+      margin-bottom: 20px;
+}
+hr{
+    margin-bottom: 20px;
+}
+.feature-section-wraper-content{
+    display: flex;
+    width: 100%;
 }
 .feature-section-wraper{
-    display: flex;
+   display: flex;
+   width: 50%;
+   margin-top: 50px;
+   padding-left: 25px;
+   padding-right: 25px;
 }
-.feature-content-wraper{
-    padding: 0 0 10px;
-    margin: 0 0 10px;
-    width: 50%;
-    margin-top: 100px;
-}
-.feature-content-wraper h2{
+h2{
     font-size: 30px;
-    font-weight: 400;
-    padding: 0 0 10px;
-    margin: 0 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
-.feature-content-wraper p{
+p{
     font-size: large;
+    font-family: Helvetica, sans-serif;
     font-weight: 300;
-    padding: 0 0 10px;
-    margin: 0 0 10px;
+    margin-bottom: 20px;
 }
-.feature-button-wraper button{
-   padding: 10px;
-   font-size: large;
-   border-radius: 5px;
-}
-.feature-button-wraper button:hover{
-    background-color: yellowgreen;
-    color: whitesmoke;
+button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: #0d6efd;
 }
 .feature-section-wraper-2{
-    display: flex;
-    margin-top: 40px;
-}
-.feature-section-icon-wraper{
-    margin: 0 0 10px;
-    padding: 0 0 10px;
-}
-.feature-section-icon{
-    padding: 0 0 10px;
-    margin: 0 0 10px;
+display: flex;
+width: 50%;    
 }
 .feature-section-icon i{
-    padding: 0 0 10px;
-    margin: 0 0 10px;
-}
-.feature-section-icon h2{
-    font-size: 30px;
-    font-weight: 700;
-    padding: 0 0 10px;
-    margin: 0 0 10px;
-}
-.feature-section-icon P{
-    font-size: large;
-    font-weight: 300;
-    padding: 0 0 10px;
-    margin: 0 0 10px;
+    margin-bottom: 20px;
 }
 @media (max-width: 1140px) and (min-width: 768px) {
 
     .feature-section{
-        background-color: greenyellow;
+        background-color: red;
         color: whitesmoke;
-        margin-top: 50px;
+        margin: 10px 0;
     }   
+}
+@media (max-width: 767px){
+    .feature-section-wraper-content{
+        background-color: yellowgreen;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .feature-section-heading h2{
+        margin: 50px;
+        
+    }
+   
+    .feature-section-wraper-2{
+        background-color: yellowgreen;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+        padding: 10px;
+    }
 }

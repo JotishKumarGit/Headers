@@ -73,9 +73,12 @@ a {
         display: flex;
         flex-direction: column;
         background-color: yellowgreen;
-        margin-top: 50px;
+        margin: 50px;
         color: white;
 
+    }
+    h2{
+        margin: 50px;
     }
 }
 

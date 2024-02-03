@@ -60,7 +60,7 @@ hr{
 @media (max-width: 1140px) and (min-width: 768px) {
     
     .feature-section{
-        background-color: greenyellow;
+        background-color: red;
         color: aliceblue;
         margin-top: 50px;
     }
@@ -70,8 +70,15 @@ hr{
      .feature-section-wraper{
         display: flex;
         flex-direction: column;
-        background-color: white;
-        color: black;
-      
+        margin-left: 50px;  
+        background-color: greenyellow;
+        color: aliceblue;
+  }
+  .feature-section-wraper-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px; 
+    background-color: greenyellow;
+    color: aliceblue;
   }
 }
