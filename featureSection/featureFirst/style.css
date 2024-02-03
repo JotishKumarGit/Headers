@@ -26,12 +26,12 @@
 
 .featureSection-icon {
     margin: 10px auto;
-    padding: 20px;
+   
 }
 
 .featureSection-icon .fa-image {
     margin: 0 0 10px;
-    padding: 0 0 10px;
+   
 }
 
 .featureSection-icon h2 {
@@ -48,12 +48,12 @@
 
 .featureSection-icon .fa-house {
     margin: 0 0 10px;
-    padding: 0 0 10px;
+    
 }
 
 .featureSection-icon .fa-user {
     margin: 0 0 10px;
-    padding: 0 0 10px;
+    
 }
 
 a {
@@ -78,3 +78,4 @@ a {
 
     }
 }
+
