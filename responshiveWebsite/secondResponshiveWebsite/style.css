@@ -1,0 +1,533 @@
+/* We have two problem in this website 
+
+1. when we stay in home page  and than i wanted that when i click any menu bar then i go on that page (First problem ) .
+
+2. i give some height any page | (He is overflow when i give margin-top) | . This is fixed when i give border .
+
+3. For (me) > i will give one time position relative for sticky and i dont repeat again and again . (Noted) .
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* This is a nav-header  */
+.nav-header {
+    width: 100%;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+    height: 100%;
+}
+
+/* Third this is a nav-bar */
+.nav-bar {
+    width: 100%;
+    position: relative;
+}
+
+.nav-bar-wraper {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: rgb(51, 32, 32);
+    align-items: center;
+}
+
+.nav-bar-wraper .brand-name {
+    margin: 0 50px;
+    width: 50%;
+}
+
+.nav-list {
+    display: flex;
+    width: 50%;
+
+}
+
+.nav-list li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.nav-list li a {
+    padding: 0px 10px;
+    text-decoration: none;
+    margin-left: 50px;
+    color: #fff;
+
+}
+
+.nav-list li a:hover {
+    color: #111;
+    background-color: #fff;
+    padding: 10px 10px;
+}
+
+.nav-bar-wraper .brand-name a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Content design  */
+.content {
+
+    height: 730px;
+    width: 100%;
+    position: relative;
+    border: 1px solid #111;
+}
+
+.content h2 {
+    margin-top: 330px;
+    text-align: center;
+    color: #111;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.content p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #111;
+
+}
+
+/* First section */
+.first-section {
+    display: flex;
+    width: 100%;
+    height: 750px;
+    background-color: rgb(109, 121, 109);
+
+}
+
+.about-section {
+
+    width: 100%;
+}
+
+.first-section .about-section h2 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 40px;
+    margin: 40px;
+}
+
+.first-section .about-section p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+.first-section .window-section {
+    height: auto;
+    width: 100%;
+}
+
+.window-section img {
+    width: 100%;
+    height: 750px;
+    text-align: center;
+}
+
+/* Second section */
+.second-section {
+    height: 730px;
+    width: 100%;
+}
+
+.content-wraper {
+    width: 100%;
+    height: 50%;
+    background-color: #111;
+    border: 2px solid #111;
+}
+
+.services-content {
+    margin-top: 100px;
+    /* border: 1px solid red; */
+}
+
+.services-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.services-content p {
+    font-size: small;
+    font-weight: 300;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wraper-icon {
+    display: flex;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(87, 87, 135);
+    align-items: center;
+}
+
+.icon {
+    margin: 0 auto;
+}
+
+/* Third section */
+.third-section {
+    height: 730px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: blue;
+}
+.tech-services {
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+}
+.child {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 50px;
+}
+.tech-services h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tech-services p {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tech-language {
+    width: 100%;
+    height: 100%;
+    background-color: yellowgreen;
+
+}
+.tech-img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 50px;
+}
+/* section four */
+.section-four {
+    height: 730px;
+    width: 100%;
+    background-color: rgb(47, 129, 84);
+    border: 1px solid rgb(47, 129, 84);
+}
+.our-client {
+    height: 200px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.our-client h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 250px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.our-client p {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 100px;
+    color: #fff;
+}
+
+.our-services {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+
+}
+
+.our-services-img img {
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+/* Section five */
+.section-five {
+    height: 730px;
+    width: 100%;
+    background-color: #a05757;
+}
+
+.section-heading {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.section-warper {
+    display: flex;
+    justify-content: center;
+}
+
+.section-content {
+    height: 300px;
+    width: 500px;
+    background-color: greenyellow;
+    margin: 10px;
+    text-align: center;
+}
+
+.section-content p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.section-content h3 {
+    color: lightcoral;
+    padding: 20px;
+    text-align: end;
+}
+
+/* Section six */
+.section-six {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(74, 45, 74);
+    display: block;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.contact {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.contact h2 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 80px;
+}
+
+.section-seven {
+    height: 600px;
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+
+}
+
+.info-section {
+    height: 500px;
+    width: 50%;
+    margin: 100px 100px;
+}
+
+.info-section input {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+hr {
+    margin-bottom: 30px;
+    font-weight: bold;
+    height: 2px;
+    background-color: #fff;
+}
+
+
+.info-image {
+    height: 600px;
+    width: 50%;
+    background-color: goldenrod;
+}
+
+.send-message {
+    padding: 7px;
+    width: 100px;
+    font-size: 20px;
+}
+
+.send-message:hover {
+    letter-spacing: 3px;
+}
+
+.footer {
+    height: 40px;
+    width: 100%;
+    background-color: #333131;
+}
+
+.footer {
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 5px;
+}
+
+.hamburg {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 45%;
+    display: none;
+}
+
+/*    */
+@media only screen and (max-width: 1340px) {
+    .nav-list {
+        flex-direction: column;
+        text-align: center;
+        height: 300px;
+        margin-top: 30px;
+        margin-right: 100px;
+    }
+
+    .nav-header {
+        transition: all 5.7s ease-out;
+    }
+
+    .nav-list li {
+        padding: 10px;
+    }
+
+    .hamburg {
+        display: block;
+    }
+
+    .nav-height-responsive {
+        height: 340px;
+        opacity: 0.7;
+    }
+
+    .visibility-responsive {
+        opacity: 0;
+        /*  visibility: hidden;  opacity 0 and visibility hidden both are same (Used for hidden element) */
+    }
+
+    .first-section {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .window-section img {
+
+        height: 100%;
+        width: 100%;
+    }
+
+    .services-content {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .wraper-icon {
+        flex-direction: column;
+        height: 1000px;
+        width: 100%;
+    }
+
+    .wraper-icon img {
+        background-size: cover;
+
+    }
+
+    .third-section {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .tech-services {
+        margin-bottom: 10px;
+    }
+
+    .tech-language {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .tech-language img {
+        text-align: center;
+    }
+    .section-seven{
+        flex-wrap: wrap-reverse;
+    }
+    .our-services {
+        flex-wrap: wrap;
+    }
+ .info-section
+ {
+    flex-wrap: wrap;
+ }
+}

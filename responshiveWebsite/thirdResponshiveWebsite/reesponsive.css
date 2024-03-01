@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1046px) {
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        width: 100%;
+        height: 450px;
+        transition: all 0.7s ease-out; /* This is transition for hamburg */
+        
+    }
+    .firstHalf{
+        text-align: center;
+    }
+
+    .main-box{
+        flex-direction: column-reverse;
+         max-width: 100%;
+    }
+    .second-section{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .rightNav {
+        text-align: center;
+    }
+    .form{
+        text-align: center;
+        margin: 10px 20px;
+    }
+    .paras{
+        padding: 0px;
+    }
+    #search {
+        width: 100%;
+    }
+
+    .hamburg {
+
+        display: block;
+    }
+
+    .nav-height-responsive {
+        height: 70px;
+    }
+
+    .visibility-responsive {
+         opacity: 0;  
+    }
+}

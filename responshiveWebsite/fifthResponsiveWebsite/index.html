@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Fifth Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <base href="image/">
+</head>
+
+<body>
+    <Main class="main">
+
+        <header class="nav-header">
+            <nav class="nav-bar">
+                <a href="#" class="logo">Portfolio</a>
+                <div class="toggle"></div>
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- First section -->
+        <section class="first-section">
+            <div class="textBox">
+                <h2>Hello , I'm <br><span>Jotish Kumar.</span></h2>
+                <h3>I am Front End Web Developer.</h3>
+                <a href="#" class="btn">About Me</a>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section class="aboutSection">
+            <div class="heading">
+                <h2>About Me</h2>
+            </div>
+            <div class="content">
+            <div class="contentBox w50">
+                <h3>I am Front End Web Developer.</h3>
+                <p>I my name is Jotish Kumar , and I am basically from to Bihar but i am currently residing in Bhopal for my study. And Currently i am purshing B tech From Bansal institute of Research and Techonology Science (Bhopal, MP).<br><br> and I am proficinet in HTML ,CSS , JS and Java And i am currently learning Jquery. And My strength is I'm a hardworker and panchual person and my weekness is We easily belive any body . <br><br>and my sort term goal is improve my Communication skills and my long term goal is We get a job in reputed company with good position.and my hobies is playing></p>
+            </div>
+            <div class="w50">
+            <img src="about.jpeg" alt="about" height="400px" width="700px">
+            </div>
+        </div>
+        </section>
+        <!-- Services Section -->
+        <section class="services">
+            <div class="heading white">
+                <h2>Our Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="content">
+                <div class="servicesBox">
+                    <img src="icon 1.png" alt="Design/icon" height="150px" width="150px">
+                    <h2>Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo accusamus tempora recusandae id voluptatum nulla neque perferendis quas</p>
+                </div>
+                <div class="servicesBox">
+                    <img src="icon 2.jpg" alt="Design/icon"  height="150px" width="150px">
+                    <h2>Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo accusamus tempora recusandae id voluptatum nulla neque perferendis quas</p>
+                </div>
+                <div class="servicesBox">
+                    <img src="icon 3.png" alt="Design/icon" height="150px" width="150px">
+                    <h2>Branding</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo accusamus tempora recusandae id voluptatum nulla neque perferendis quas</p>
+                </div>
+                <div class="servicesBox">
+                    <img src="icon4.png" alt="Design/icon"  height="150px" width="150px">
+                    <h2>Branding</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo accusamus tempora recusandae id voluptatum nulla neque perferendis quas</p>
+                </div>
+                <div class="servicesBox">
+                    <img src="icon5.jpeg" alt="Design/icon"  height="150px" width="150px">
+                    <h2>Branding</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo accusamus tempora recusandae id voluptatum nulla neque perferendis quas</p>
+                </div>
+                <div class="servicesBox">
+                    <img src="icon6.png" alt="Design/icon"  height="150px" width="150px">
+                    <h2>Branding</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo accusamus tempora recusandae id voluptatum nulla neque perferendis quas</p>
+                </div>
+            </div>
+        </section>
+    </Main>
+
+<script type="text/javascript">
+    
+window.addEventListener("scroll", function(){
+    var navbar = document.querySelector(".nav-bar");
+    navbar.classList.toggle("sticky", window.scrollY > 0);
+});
+
+</script>
+   
+ <script src="app.js"></script>
+</body>
+
+</html>
