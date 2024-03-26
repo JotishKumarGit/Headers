@@ -125,12 +125,6 @@ img{
 .services{
     background-color: #111;
 }
- .white{
-    background: #fff;
-}
- .white h2{
-    color: #fff;
-}
- .white p{
+.heading.white{
     color: #fff;
 }
